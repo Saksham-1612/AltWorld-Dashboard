@@ -8,7 +8,7 @@ const StudentsInfo = () => {
   console.log(selectedStudent);
 
   return (
-    <div className="bg-red-300 mx-4 ">
+    <div className="mx-4 ">
       <p className="text-xs">
         <span className="ml-3 font-thin">Pages</span> / Assignment
       </p>
