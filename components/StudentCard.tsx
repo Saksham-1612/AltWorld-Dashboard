@@ -44,7 +44,13 @@ const StudentCard: React.FC<StudentCardProps> = ({
         </div>
       </div>
       <div>
-        <p className="text-sm font-bold">{data.total}</p>
+        <p
+          className={`text-sm font-bold ${
+            data.total < 75 ? "text-yellow-500" : "text-green-500"
+          }`}
+        >
+          {data.total}%
+        </p>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import SelectedStudentInfo from "./SelectedStudentInfo";
 
 const StudentsInfo = () => {
   const [selectedStudent, setSelectedStudent] = useState(1);
-  console.log(selectedStudent);
+  // console.log(selectedStudent);
 
   return (
     <div className="mx-4 ">
@@ -15,7 +15,7 @@ const StudentsInfo = () => {
       <p className="text-xs font-bold ml-3 mt-1">Sales BDE</p>
 
       <div className="flex mt-4 gap-1 w-full]">
-        <div className="bg-white p-3 rounded-xl w-[300px]">
+        <div className="bg-white shadow-md p-3 rounded-xl w-[300px]">
           <div className="flex items-center justify-between">
             <p className="font-bold text-base">Sales BDE</p>
             <p className="font-bold text-base text-green-400">Active</p>

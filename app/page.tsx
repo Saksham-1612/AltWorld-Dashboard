@@ -3,7 +3,7 @@ import StudentsInfo from "@/components/StudentsInfo";
 
 export default function Home() {
   return (
-    <div className="flex px-10 pt-10 h-screen  overflow-hidden">
+    <div className="flex px-10 pt-10 ">
       <div className="">
         <AdminDashboard />
       </div>
